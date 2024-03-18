@@ -5,6 +5,28 @@
 
     .left {
         flex: 1;
+        position: sticky;
+        height: 100%;
+        top: 50px;
+
+        .filterItem {
+            margin-bottom: 30px;
+
+            h2 {
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            .inputItem {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                label {
+                    margin-left: 10px;
+                }
+            }
+        }
     }
 
     .right {
@@ -15,6 +37,7 @@
             height: 300px;
             margin-bottom: 50px;
             object-fit: cover;
+            border-radius: 10px;
         }
     }
 }
