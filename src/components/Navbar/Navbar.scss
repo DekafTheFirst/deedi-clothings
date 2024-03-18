@@ -20,8 +20,14 @@
         }
 
         .center {
-            font-size: 30px;
-            letter-spacing: 2px;
+
+            .link {
+                letter-spacing: 2px;
+                color: #6b513e;
+                font-weight: bold;
+                font-size: 32px;
+
+            }
         }
 
         .right {
@@ -38,7 +44,7 @@
                 .cartIcon {
                     position: relative;
 
-                    span{
+                    span {
                         font-size: 12px;
                         width: 20px;
                         height: 20px;
