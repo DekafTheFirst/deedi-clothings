@@ -52,7 +52,7 @@ const Products = () => {
       <div className="right">
         <img
           className="catImg"
-          src="/img/hero-img.jpg"
+          src="/img/hero-img-1.jpg"
           alt="" 
         />
         <List catId={catId} maxPrice={maxPrice} sort={sort}/>
