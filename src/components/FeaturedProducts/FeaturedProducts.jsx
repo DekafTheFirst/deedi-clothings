@@ -64,9 +64,9 @@ const FeaturedProducts = ({ type }) => {
       </div>
       <div className="bottom">
         {
-          loading ?
+          error ? "Something went wrong!" : (loading ?
             "loading"
-            : data?.map(item => (<Card key={item.id} item={item.attributes} />))
+            : data?.map(item => (<Card key={item.id} item={item} />)))
         }
       </div>
     </div>
